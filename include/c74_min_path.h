@@ -248,6 +248,17 @@ namespace c74::min {
                 c74::max::path_copyfile(m_path, m_filename, destination_folder.m_path, (char*)destination_name.c_str());
         }
 
+
+
+        short id() const {
+            return m_path;
+        }
+
+        const char* filename() const {
+            return m_filename;
+        }
+
+
     private:
         short         m_path                     {};
         char          m_filename[max::MAX_PATH_CHARS] {};

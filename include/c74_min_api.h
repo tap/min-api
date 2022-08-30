@@ -398,6 +398,7 @@ namespace c74::min {
 #include "c74_min_queue.h"              // Wrapper for qelems and fifos
 #include "c74_min_buffer.h"             // Wrapper for MSP buffers
 #include "c74_min_path.h"               // Wrapper class for accessing the Max path system
+#include "c74_min_watcher.h"            // Wrapper class for file watchers
 #include "c74_min_texteditor.h"         // Wrapper for text editor window
 #include "c74_min_dataspace.h"          // Unit conversion routines (e.g. db-to-linear or hz-to-midi)
 
